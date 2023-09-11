@@ -1,0 +1,10 @@
+# Ignorar archivos temporales
+#*.log
+#*.tmp
+
+# Ignorar la carpeta de dependencias de flet.py
+venvPy/
+
+# Ignorar archivos de compilación
+#build/
+#dist/
