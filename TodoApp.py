@@ -29,16 +29,3 @@ class TodoApp(ft.UserControl):
     def task_delete(self, task):
         self.tasks.controls.remove(task)
         self.update()
-
-def main(page: ft.Page):
-    page.title = "ToDo App"
-    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
-    page.update()
-
-    #create aplication instance
-    todo = TodoApp()
-
-    #add aplication's root control to the page
-    page.add(todo)
-
-ft.app(main)
