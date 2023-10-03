@@ -1,13 +1,5 @@
-# Ignorar archivos temporales
-#*.log
-#*.tmp
-
 # Ignorar la carpeta de dependencias de flet.py
 venvPy/
-__pycache__/
+__pycache__
 
 TodoApp.py
-
-# Ignorar archivos de compilación
-#build/
-#dist/
