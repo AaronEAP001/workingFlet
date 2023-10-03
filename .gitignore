@@ -4,6 +4,7 @@
 
 # Ignorar la carpeta de dependencias de flet.py
 venvPy/
+__pycache__/
 
 # Ignorar archivos de compilación
 #build/
