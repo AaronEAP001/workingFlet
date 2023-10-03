@@ -6,6 +6,8 @@
 venvPy/
 __pycache__/
 
+TodoApp.py
+
 # Ignorar archivos de compilación
 #build/
 #dist/
